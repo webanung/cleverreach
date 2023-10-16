@@ -1,0 +1,46 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            CR\OfficialCleverreach\Domain\Model\Configuration {
+                mapping {
+                    tableName = tx_officialcleverreach_domain_model_configuration
+                    columns {
+                        cr_key.mapOnProperty = key
+                        cr_value.mapOnProperty = value
+                    }
+                }
+            }
+            CR\OfficialCleverreach\Domain\Model\Queue {
+                mapping {
+                    tableName = tx_officialcleverreach_domain_model_queue
+                    columns {
+                        uid.mapOnProperty = id
+                        status.mapOnProperty = status
+                        type.mapOnProperty = type
+                        queueName.mapOnProperty = queueName
+                        progress.mapOnProperty = progress
+                        retries.mapOnProperty = retries
+                        failureDescription.mapOnProperty = failureDescription
+                        serializedTask.mapOnProperty = serializedTask
+                        createTimestamp.mapOnProperty = createTimestamp
+                        queueTimestamp.mapOnProperty = queueTimestamp
+                        lastUpdateTimestamp.mapOnProperty = lastUpdateTimestamp
+                        startTimestamp.mapOnProperty = startTimestamp
+                        finishTimestamp.mapOnProperty = finishTimestamp
+                        failTimestamp.mapOnProperty = failTimestamp
+                        lastExecutionProgress.mapOnProperty = lastExecutionProgress
+                    }
+                }
+            }
+            CR\OfficialCleverreach\Domain\Model\Process {
+                mapping {
+                    tableName = tx_officialcleverreach_domain_model_process
+                    columns {
+                        guid.mapOnProperty = guid
+                        runner.mapOnProperty = runner
+                    }
+                }
+            }
+        }
+    }
+}

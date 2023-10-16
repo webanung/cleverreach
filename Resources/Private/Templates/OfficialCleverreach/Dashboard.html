@@ -1,0 +1,149 @@
+<f:layout name="Default"/>
+
+<f:section name="initialStyles">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path:'Css/cleverreach-dashboard.css?v=2')}" media="all">
+</f:section>
+
+<f:section name="additionalJs">
+    <script src="{f:uri.resource(path:'JavaScript/cleverreach.dashboard.js?v=2')}"></script>
+</f:section>
+
+<f:section name="content">
+    <input type="hidden" id="cr-build-email-url" value="{buildEmailUrl}">
+    <input type="hidden" id="cr-build-first-email-url" value="{buildFirstEmailUrl}">
+    <input type="hidden" id="cr-retry-sync-url" value="{retrySyncUrl}">
+
+    <div class="cr-tab-wrapper">
+        <div class="cr-dashboard-tab-wrapper">
+            <button class="cr-dashboard-tab"><f:translate key='tx_officialcleverreach_dashboard_title'/></button>
+        </div>
+
+        <div class="cr-pull-right">
+            <a href="<f:translate key='tx_officialcleverreach_help_support_link'/>" target="_blank"><f:translate key='tx_officialcleverreach_help_support'/></a>
+            <p class="cr-id"><f:translate key='tx_officialcleverreach_cleverreach_id'/>{recipientId}</p>
+        </div>
+    </div>
+
+    <f:if condition="{isTaskFailed}">
+        <f:then>
+            <div class="cr-content-window-wrapper">
+                <div class="cr-content-window">
+                    <img class="cr-icon" src="{f:uri.resource(path:'Images/icon_quickstartmailing.svg')}"/>
+                    <h3>
+                        <f:translate key='tx_officialcleverreach_error_occurred'/>
+                    </h3>
+                    <div class="cr-dashboard-text-wrapper cr-main-text">
+                        <f:translate key='tx_officialcleverreach_error_description1'/> "{taskFailureMessage}"
+                        <br>
+                        <f:translate key='tx_officialcleverreach_error_description2'/>
+                        <a target="_blank" href="<f:translate key='tx_officialcleverreach_help_support_link'/>"><f:translate key='tx_officialcleverreach_help_support'/></a>
+                    </div>
+                    <button class="cr-action-buttons-wrapper cr-primary" id="cr-retrySync">
+                        <f:translate key='tx_officialcleverreach_retry_sync'/>
+                    </button>
+                </div>
+            </div>
+        </f:then>
+        <f:else>
+            <div class="cr-dashboard-block">
+                <div class="cr-dashboard-container {report.reportDynamicClass}">
+                    <f:if condition="{report.isReportEnabled}">
+                        <f:then>
+                            <div class="cr-import">
+                                <svg viewBox="0 0 400 150" preserveAspectRatio="xMinYMin meet" style="stroke: none; fill: url('#cr-gradient')">
+                                    <path d="M0,130 C150,180 200,60 400,120 L400,00 L0,0 Z" style="stroke: none;"></path>
+                                    <defs>
+                                        <linearGradient id="cr-gradient" x1="100%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#0AE355"></stop>
+                                            <stop offset="72%" stop-color="#00C562"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="cr-import-successful">
+                                    <f:translate key='tx_officialcleverreach_import_successful'/>
+                                </div>
+                                <div class="cr-success-circle">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="cr-report-content">
+                                    <div class="cr-recipients">
+                                        <div class="cr-dashboard-report-icon-large">
+                                            <i class="fa fa-users"></i>
+                                        </div>
+                                        <div class="cr-dashboard-concrete-report">
+                                            <div class="title">
+                                                <f:translate key='tx_officialcleverreach_recipients'/>
+                                            </div>
+                                            <div class="value">
+                                                {report.recipients}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cr-recipient-list">
+                                        <div class="cr-dashboard-report-icon-large">
+                                            <i class="fa fa-clipboard-list"></i>
+                                        </div>
+                                        <div class="cr-dashboard-concrete-report">
+                                            <div class="title">
+                                                <f:translate key='tx_officialcleverreach_recipient_list'/>
+                                            </div>
+                                            <div class="value cr-integration-list" title="{report.name}">
+                                                {report.name}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cr-segments">
+                                        <div class="cr-dashboard-report-icon-small">
+                                            <i class="fa fa-tag"></i>
+                                        </div>
+                                        <div class="cr-dashboard-concrete-report">
+                                            <div class="title">
+                                                <f:translate key='tx_officialcleverreach_segments'/>
+                                            </div>
+                                            <f:for each="{report.tags}" as="tag">
+                                                <f:format.htmlentitiesDecode>
+                                                    {tag}
+                                                </f:format.htmlentitiesDecode>
+                                            </f:for>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cr-gdpr">
+                                    <a href="<f:translate key='tx_officialcleverreach_gdpr_link'/>" class="cr-link" target="_blank">
+                                        <i><f:translate key='tx_officialcleverreach_gdpr'/></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </f:then>
+                    </f:if>
+
+                    <!-- DASHBOARD CARD -->
+                    <div class="cr-create">
+                        <img class="cr-dashboard-logo" src="{f:uri.resource(path:'Images/cr_logo_transparent_107px.png')}" alt="Logo">
+                        <h3>
+                            <f:translate key='tx_officialcleverreach_target_email_title'/>
+                        </h3>
+                        <div class="cr-dashboard-text-wrapper cr-main-text">
+                            <f:translate key='tx_officialcleverreach_target_email_desc2'/>
+                        </div>
+                        <div class="cr-button-container">
+                            <button class="cr-action-buttons-wrapper cr-primary" id="cr-buildEmail">
+                                <f:if condition="{isFirstEmailBuilt}">
+                                    <f:then>
+                                        <f:translate key='tx_officialcleverreach_create_next_newsletter'/>
+                                    </f:then>
+                                    <f:else>
+                                        <f:translate key='tx_officialcleverreach_create_first_newsletter'/>
+                                    </f:else>
+                                </f:if>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- /DASHBOARD CARD -->
+
+                </div>
+            </div>
+        </f:else>
+    </f:if>
+</f:section>

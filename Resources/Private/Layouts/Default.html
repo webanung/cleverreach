@@ -1,0 +1,11 @@
+<f:be.container
+        includeCssFiles="{0: '{f:uri.resource(path:\'Css/cleverreach.css\')}'}"
+        includeJsFiles="{0: '{f:uri.resource(path:\'JavaScript/cleverreach.ajax.js\')}', 1: '{f:uri.resource(path:\'JavaScript/cleverreach.authorization.js\')}', 2: '{f:uri.resource(path:\'JavaScript/cleverreach.status-checker.js\')}'}">
+    <f:render section="initialStyles"/>
+
+    <img class="cr-logo" src="{f:uri.resource(path:'Images/logo_cleverreach.svg')}">
+    <div class="cr-container">
+        <f:render section="content"/>
+    </div>
+    <f:render section="additionalJs"/>
+</f:be.container>

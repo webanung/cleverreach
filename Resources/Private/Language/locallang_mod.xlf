@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-06-18T14:58:14Z"
+		  product-name="officialcleverreach">
+		<header/>
+		<body>
+			<trans-unit id="mlang_tabs_tab">
+				<source>CleverReach®</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

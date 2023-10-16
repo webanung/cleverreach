@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2018-06-18T14:58:14Z"
+          product-name="cleverreach">
+        <header/>
+        <body>
+            <trans-unit id="tx_officialcleverreach_hello">
+                <source>hello</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_connecting">
+                <source>connecting...</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_title">
+                <source>Welcome to clever Email Marketing</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_message">
+                <source>Simply transmit Typo3 CMS data and get started with CleverReach® for free!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_create_account">
+                <source>Create and connect your new CleverReach® account now!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_login">
+                <source>Log in and connect with an existing CleverReach® account</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_dashboard_title">
+                <source>Dashboard</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_help_support">
+                <source>Help and Support</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_help_support_link">
+                <source>https://support.cleverreach.de/hc/en-us</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_cleverreach_id">
+                <source>CleverReach® ID:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_occurred">
+                <source>An error occurred!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_title">
+                 <source>Error: token expired</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_message">
+                 <source>It seems that it was a long time since any event happened inside your %s and CleverReach® access token expired. In order to let system synchronize data for you, you'll have to authenticate again with CleverReach® ID %s. If you want to use different CleverReach® account, you need to reinstall this extension.</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_authenticate">
+                 <source>Authenticate now</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_title">
+                <source>Targeted email marketing for more revenue!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_description1">
+                <source>Error description:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_description2">
+                <source>For more details please contact</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_desc1">
+                <source>Targeted email marketing for more readers in your TYPO3 CMS</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_desc2">
+                <source>Create appealing emails to showcase your articles to your readers.</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_retry_sync">
+                <source>Retry synchronization now</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_create_next_newsletter">
+                <source>Create your next newsletter now! →</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_create_first_newsletter">
+                <source>Create your first newsletter →</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_import_subscribers">
+                <source>Import recipients from TYPO3 CMS to CleverReach®</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_create_subscriber_list">
+                <source>Create recipient list in CleverReach®</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_add_fields">
+                <source>Add data fields, segments and tags to recipient list</source>
+            </trans-unit>
+            <trans-unit id="cr_newsletter_subscription">
+                <source>Subscribe to newsletter</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_config_sync_all_as_subscribers">
+                <source>Current users should be synced as Subscribers: If this option is turned on, CleverReach initial synchronization will threat all web users as Subscribers. Every later synchronization will use subscription status that was added to WebUsers administration.</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_salutation">
+                <source>Salutation:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_birthday">
+                <source>Date of birth:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_first_name">
+                <source>First name:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_middle_name">
+                <source>Middle name:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_last_name">
+                <source>Last name:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_title">
+                <source>Title:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_address">
+                <source>Address:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_phone">
+                <source>Phone:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_fax">
+                <source>Fax:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_email">
+                <source>Email:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_company">
+                <source>Company:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_city">
+                <source>City:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_zip">
+                <source>Zipcode:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_country">
+                <source>Country:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_state">
+                <source>State/Province:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_language">
+            <source>Language:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_customer_number">
+                <source>Customer number:</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_recipients">
+                <source>Recipients</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_recipient_list">
+                <source>Recipient list</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_segments">
+                <source>Segments</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_import_successful">
+                <source>Import was successful!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_gdpr">
+                <source>Observe notes on GDPR!</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_gdpr_link">
+                <source>https://www.cleverreach.com/en/features/privacy-security/eu-general-data-protection-regulation-gdpr/</source>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_article_search">
+                <source>Article Search</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

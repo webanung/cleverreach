@@ -1,0 +1,43 @@
+<f:layout name="Default"/>
+
+<f:section name="initialStyles">
+    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path:'Css/cleverreach-welcome.css?v=2')}" media="all">
+</f:section>
+
+<f:section name="additionalJs">
+    <script src="{f:uri.resource(path:'JavaScript/cleverreach.welcome.js?v=2')}"></script>
+</f:section>
+
+<f:section name="content">
+    <input type="hidden" id="cr-auth-url" value="{authUrl}">
+    <input type="hidden" id="cr-check-status-url"
+           value="{f:uri.action(action: 'userInfo', controller: 'CheckStatus')}">
+
+    <div class="cr-loader-big">
+        <span class="cr-loader"></span>
+    </div>
+
+    <div class="cr-connecting">
+        <span>
+            <f:translate key="tx_officialcleverreach_connecting"/>
+        </span>
+    </div>
+
+    <div class="cr-content-window-wrapper">
+        <div class="cr-content-window">
+            <img class="cr-welcome-icon" src="{f:uri.resource(path:'Images/icon_{hello}.png')}">
+            <h3>
+                <f:translate key="tx_officialcleverreach_token_expired_screen_title"/>
+            </h3>
+            <div class="cr-dashboard-text-wrapper cr-main-text">
+                <f:translate key="tx_officialcleverreach_token_expired_screen_message"
+                             arguments="{0: '{integrationName}', 1: '{clientId}'}"/>
+            </div>
+            <div class="cr-action-buttons-wrapper">
+                <button class="cr-primary" id="cr-log-account">
+                    <f:translate key="tx_officialcleverreach_token_expired_screen_authenticate"/>
+                </button>
+            </div>
+        </div>
+    </div>
+</f:section>

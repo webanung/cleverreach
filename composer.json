@@ -1,0 +1,35 @@
+{
+  "name": "webanug/cleverreach",
+  "description": "Are your clients already fans of your business? The perfect email newsletter software for your TYPO3 content management system: test CleverReach® now!",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.cleverreach.com",
+  "license": [
+    "GPL-2.0+"
+  ],
+  "keywords": [
+    "newsletter",
+    "email",
+    "cleverreach",
+    "api",
+    "registration",
+    "automation",
+    "marketing"
+  ],
+  "require": {
+    "typo3/cms-core": "~10.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8.0",
+    "mikey179/vfsStream": "1.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CR\\OfficialCleverreach\\": "Classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CR\\OfficialCleverreach\\Tests\\": "Tests/"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2018-06-18T14:58:14Z"
+          product-name="cleverreach" target-language="it">
+        <header/>
+        <body>
+            <trans-unit id="tx_officialcleverreach_hello">
+                <source>hello</source>
+                <target state="translated">ciao</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_connecting">
+                <source>connecting...</source>
+                <target state="translated">Connessione...</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_title" aproved="yes">
+                <source>Welcome to clever Email Marketing</source>
+                <target state="translated">Benvenuti nel mondo dell'e - mail marketing intelligente</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_message">
+                <source>Simply transmit Typo3 CMS data and get started with CleverReach® for free!</source>
+                <target state="translated">Trasmetti i dati contenuti nella tua piattaforma TYPO3 CMS e comincia gratuitamente ad usare CleverReach®!</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_create_account">
+                <source>Crea e connetti adesso il tuo nuovo account CleverReach®!</source>
+                <target state="translated">Jetzt neuen CleverReach® Account erstellen &amp; verbinden!</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_welcome_screen_login">
+                <source>Log in and connect with an existing CleverReach® account</source>
+                <target state="translated">Accedi e connettiti ad un account CleverReach® esistente</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_dashboard_title">
+                <source>Dashboard</source>
+                <target state="translated">Dashboard</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_help_support">
+                <source>Help and Support</source>
+                <target state="translated">Aiuto e Supporto</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_help_support_link">
+                <source>https://support.cleverreach.de/hc/en-us</source>
+                <target state="translated">https://support.cleverreach.de/hc/it</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_cleverreach_id">
+                <source>CleverReach® ID:</source>
+                <target state="translated">ID cliente CleverReach®:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_occurred">
+                <source>An error occurred!</source>
+                <target state="translated">Es ist ein Fehler aufgetreten!</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_title">
+                <source>Targeted email marketing for more revenue!</source>
+                <target state="translated">E-mail marketing mirato per incrementare i profitti!</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_description1">
+                <source>Error description:</source>
+                <target state="translated">Fehlerbeschreibung:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_error_description2">
+                <source>For more details please contact</source>
+                <target state="translated">Für weitere Informationen kontaktieren Sie bitte</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_desc1">
+                <source>Targeted email marketing for more readers in your TYPO3 CMS</source>
+                <target state="translated">Un e-mail marketing mirato per avere più lettori nel tuo TYPO3 CMS</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_target_email_desc2">
+                <source>Create appealing emails to showcase your articles to your readers.</source>
+                <target state="translated">Crea e-mail accattivanti per mostrare i tuoi articoli ai tuoi lettori.</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_retry_sync">
+                <source>Retry synchronization now</source>
+                <target state="translated">Wiederholen Sie die Datenübertragung</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_create_next_newsletter">
+                <source>Create your next newsletter now! →</source>
+                <target state="translated">Crea ora la tua prossima newsletter! →</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_create_first_newsletter">
+                <source>Create your first newsletter →</source>
+                <target state="translated">Crea la tua prima newsletter →</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_import_subscribers">
+                <source>Import recipients from TYPO3 CMS to CleverReach®</source>
+                <target state="translated">Importa i destinatari da TYPO3 CMS in CleverReach®</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_create_subscriber_list">
+                <source>Create recipient list in CleverReach®</source>
+                <target state="translated">Crea un elenco di destinatari in CleverReach®</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_initial_sync_add_fields">
+                <source>Add data fields, segments and tags to recipient list</source>
+                <target state="translated">Aggiungi campi, segmenti e tag alle tue liste di destinatari</target>
+            </trans-unit>
+            <trans-unit id="cr_newsletter_subscription">
+                <source>Subscribe to newsletter</source>
+                <target state="translated">Iscriversi alla newsletter</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_config_sync_all_as_subscribers">
+                <source>Current users should be synced as Subscribers: If this option is turned on, CleverReach initial synchronization will threat all web users as Subscribers. Every later synchronization will use subscription status that was added to WebUsers administration.</source>
+                <target state="translated">Aktuelle Benutzer sollten als Abonnenten synchronisiert werden: Wenn diese Option aktiviert ist, bedroht die erste CleverReach-Synchronisierung alle Webbenutzer als Abonnenten. Bei jeder späteren Synchronisierung wird der Abonnementstatus verwendet, der der WebUser-Verwaltung hinzugefügt wurde.
+                </target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_salutation">
+                <source>Salutation:</source>
+                <target state="translated">Signor/Signora:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_birthday">
+                <source>Date of birth:</source>
+                <target state="translated">Data di nascita:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_first_name">
+                <source>First name:</source>
+                <target state="translated">Nome proprio:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_middle_name">
+                <source>Middle name:</source>
+                <target state="translated">Nome intermedio:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_last_name">
+                <source>Last name:</source>
+                <target state="translated">Cognome:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_title">
+                <source>Title:</source>
+                <target state="translated">Titolo:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_address">
+                <source>Address:</source>
+                <target state="translated">Indirizzo:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_phone">
+                <source>Phone:</source>
+                <target state="translated">Telefono:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_email">
+                <source>Email:</source>
+                <target state="translated">Email</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_company">
+                <source>Company:</source>
+                <target state="translated">Empresa:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_city">
+                <source>City:</source>
+                <target state="translated">Città:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_zip">
+                <source>Zipcode:</source>
+                <target state="translated">CAP:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_country">
+                <source>Country:</source>
+                <target state="translated">Paese:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_state">
+                <source>State/Province:</source>
+                <target state="translated">Stato:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_language">
+                <source>Language:</source>
+                <target state="translated">Lingua:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_customer_number">
+                <source>Customer number:</source>
+                <target state="translated">Codice Cliente:</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_title">
+                <source>Error: token expired</source>
+                <target state="translated">Error: token expired</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_message">
+                <source>It seems that it was a long time since any event happened inside your %s and CleverReach® access token expired. In order to let system synchronize data for you, you'll have to authenticate again with CleverReach® ID %s. If you want to use different CleverReach® account, you need to reinstall this extension.</source>
+                <target state="translated">It seems that it was a long time since any event happened inside your %s and CleverReach® access token expired. In order to let system synchronize data for you, you'll have to authenticate again with CleverReach® ID %s. If you want to use different CleverReach® account, you need to reinstall this extension.s
+                </target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_token_expired_screen_authenticate">
+                <source>Authenticate now</source>
+                <target state="translated">Authenticate now</target>
+            </trans-unit>
+            <trans-unit id="tx_officialcleverreach_article_search">
+                <source>Article Search</source>
+                <target state="translated">Article Search</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

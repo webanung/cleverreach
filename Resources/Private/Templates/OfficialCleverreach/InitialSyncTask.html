@@ -1,0 +1,71 @@
+
+<f:layout name="Default"/>
+
+<f:section name="initialStyles">
+    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path:'Css/cleverreach-initial-sync.css?v=2')}" media="all">
+    <link rel="stylesheet" type="text/css" href="{f:uri.resource(path:'Css/cleverreach-icofont.css?v=2')}" media="all">
+</f:section>
+
+<f:section name="additionalJs">
+    <script src="{f:uri.resource(path:'JavaScript/cleverreach.initial-sync.js?v=2')}"></script>
+</f:section>
+
+<f:section name="content">
+    <input type="hidden" id="cr-admin-status-check-url" value="{checkStatusUrl}">
+
+    <div data-task-list-panel>
+        <ul class="cr-list-group">
+            <li class="cr-list-group-item disabled" data-task="subscriberlist">
+                <div class="cr-content-window-wrapper">
+                    <div class="cr-content-window">
+                        <i class="cr-icofont cr-icofont-circle">
+                            <i class="cr-icofont cr-icofont-2x cr-icofont-circle" aria-hidden="true" data-status="subscriberlist"></i>
+                        </i>
+                        <div class="cr-item">
+                            <div class="cr-item-text">
+                                <f:translate key='tx_officialcleverreach_initial_sync_create_subscriber_list'/>
+                            </div>
+                            <div class="cr-item-badge">
+                                <span data-progress="subscriberlist">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="cr-list-group-item disabled" data-task="add_fields">
+                <div class="cr-content-window-wrapper">
+                    <div class="cr-content-window">
+                        <i class="cr-icofont cr-icofont-circle">
+                            <i class="cr-icofont cr-icofont-2x cr-icofont-circle" aria-hidden="true" data-status="add_fields"></i>
+                        </i>
+                        <div class="cr-item">
+                            <div class="cr-item-text">
+                                <f:translate key='tx_officialcleverreach_initial_sync_add_fields'/>
+                            </div>
+                            <div class="cr-item-badge">
+                                <span data-progress="add_fields">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="cr-list-group-item disabled" data-task="recipient_sync">
+                <div class="cr-content-window-wrapper">
+                    <div class="cr-content-window">
+                        <i class="cr-icofont cr-icofont-circle">
+                            <i class="cr-icofont cr-icofont-2x cr-icofont-circle" aria-hidden="true" data-status="recipient_sync"></i>
+                        </i>
+                        <div class="cr-item">
+                            <div class="cr-item-text">
+                                {recipientSyncTaskTitle}
+                            </div>
+                            <div class="cr-item-badge">
+                                <span data-progress="recipient_sync">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</f:section>

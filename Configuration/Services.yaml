@@ -1,0 +1,39 @@
+services:
+    CR\OfficialCleverreach\Hooks\InstallHandler:
+        tags:
+            - name: event.listener
+              identifier: 'cleverreach/install'
+              method: 'install'
+              event: TYPO3\CMS\Core\Package\Event\AfterPackageActivationEvent
+
+            - name: event.listener
+              identifier: 'cleverreach/uninstall'
+              method: 'uninstall'
+              event: TYPO3\CMS\Core\Package\Event\AfterPackageDeactivationEvent
+
+    CR\OfficialCleverreach\Hooks\HookHandler:
+        tags:
+            - name: event.listener
+              identifier: 'cleverreach/femanager-user-created'
+              method: 'femanagerUserCreated'
+              event: In2code\Femanager\Event\FinalCreateEvent
+
+            - name: event.listener
+              identifier: 'cleverreach/femanager-user-updated-before'
+              method: 'femanagerUserUpdatedBefore'
+              event: In2code\Femanager\Event\BeforeUpdateUserEvent
+
+            - name: event.listener
+              identifier: 'cleverreach/femanager-user-updated-after'
+              method: 'femanagerUserUpdatedAfter'
+              event: In2code\Femanager\Event\AfterUserUpdateEvent
+
+            - name: event.listener
+              identifier: 'cleverreach/femanager-user-updated-final'
+              method: 'femanagerFinalUpdate'
+              event: In2code\Femanager\Event\FinalUpdateEvent
+
+            - name: event.listener
+              identifier: 'cleverreach/femanager-user-deleted-before'
+              method: 'femanagerUserDeleteBefore'
+              event: In2code\Femanager\Event\DeleteUserEvent

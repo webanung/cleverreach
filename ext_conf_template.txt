@@ -1,0 +1,3 @@
+# cat=general/enable; type=boolean; label=LLL:EXT:official_cleverreach/Resources/Private/Language/locallang.xlf:tx_officialcleverreach_config_sync_all_as_subscribers
+
+syncUsersAsSubscribers = 0
