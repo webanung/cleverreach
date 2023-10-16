@@ -16,7 +16,7 @@
     "marketing"
   ],
   "require": {
-    "typo3/cms-core": "~10.0"
+    "typo3/cms-core": "~11.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8.0",
