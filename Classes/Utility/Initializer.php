@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Utility;
+namespace WebanUg\Cleverreach\Utility;
 
 use CleverReach\BusinessLogic\Interfaces\Attributes;
 use CleverReach\BusinessLogic\Interfaces\Proxy as ProxyInterface;
@@ -26,28 +26,28 @@ use CleverReach\Infrastructure\Utility\GuidProvider;
 use CleverReach\Infrastructure\Utility\NativeSerializer;
 use CleverReach\Infrastructure\Utility\Serializer;
 use CleverReach\Infrastructure\Utility\TimeProvider;
-use CR\OfficialCleverreach\Domain\Repository\FrontendUserGroupRepository;
-use CR\OfficialCleverreach\Domain\Repository\FrontendUserRepository;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\FrontendUserGroupRepository as FrontendUserGroupRepositoryLegacy;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\FrontendUserRepository as FrontendUserRepositoryLegacy;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\PageRepository as PageRepositoryLegacy;
-use CR\OfficialCleverreach\Domain\Repository\PageRepository;
-use CR\OfficialCleverreach\IntegrationServices\Business\AttributesService;
-use CR\OfficialCleverreach\IntegrationServices\Business\RecipientsService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\AsyncProcessStarterService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigRepositoryService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\HttpClientService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\LoggerService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\TaskQueueStorageService;
+use WebanUg\Cleverreach\Domain\Repository\FrontendUserGroupRepository;
+use WebanUg\Cleverreach\Domain\Repository\FrontendUserRepository;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\FrontendUserGroupRepository as FrontendUserGroupRepositoryLegacy;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\FrontendUserRepository as FrontendUserRepositoryLegacy;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\PageRepository as PageRepositoryLegacy;
+use WebanUg\Cleverreach\Domain\Repository\PageRepository;
+use WebanUg\Cleverreach\IntegrationServices\Business\AttributesService;
+use WebanUg\Cleverreach\IntegrationServices\Business\RecipientsService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\AsyncProcessStarterService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigRepositoryService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\HttpClientService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\LoggerService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\TaskQueueStorageService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class Initializer
- * @package CR\OfficialCleverreach\Utility
+ * @package WebanUg\Cleverreach\Utility
  */
 class Initializer
 {

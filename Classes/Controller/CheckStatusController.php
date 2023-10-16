@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
 require_once __DIR__ . '/../autoload.php';
 

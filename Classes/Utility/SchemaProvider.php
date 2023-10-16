@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Utility;
+namespace WebanUg\Cleverreach\Utility;
 
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Conditions;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Schema\ComplexCollectionSchemaAttribute;
@@ -10,7 +10,7 @@ use CleverReach\BusinessLogic\Utility\ArticleSearch\Schema\SimpleCollectionSchem
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Schema\SimpleSchemaAttribute;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\SearchItem\SearchableItem;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\SearchItem\SearchableItems;
-use CR\OfficialCleverreach\Exceptions\ContentTypeNotFoundException;
+use WebanUg\Cleverreach\Exceptions\ContentTypeNotFoundException;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class SchemaProvider

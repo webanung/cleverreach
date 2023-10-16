@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Exceptions;
+namespace WebanUg\Cleverreach\Exceptions;
 
 class ContentTypeNotFoundException extends \Exception
 {

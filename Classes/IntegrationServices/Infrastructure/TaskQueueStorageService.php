@@ -1,15 +1,15 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Required\TaskQueueStorage;
 use CleverReach\Infrastructure\Logger\Logger;
 use CleverReach\Infrastructure\TaskExecution\Exceptions\QueueItemSaveException;
 use CleverReach\Infrastructure\TaskExecution\QueueItem;
-use CR\OfficialCleverreach\Domain\Model\Queue;
-use CR\OfficialCleverreach\Domain\Repository\QueueRepository;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\QueueRepository as QueueLegacyRepository;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Model\Queue;
+use WebanUg\Cleverreach\Domain\Repository\QueueRepository;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\QueueRepository as QueueLegacyRepository;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 
@@ -271,7 +271,7 @@ class TaskQueueStorageService implements TaskQueueStorage
     /**
      * Returns an instance of queue repository.
      *
-     * @return \CR\OfficialCleverreach\Domain\Repository\Interfaces\QueueRepositoryInterface
+     * @return \WebanUg\Cleverreach\Domain\Repository\Interfaces\QueueRepositoryInterface
      *
      * @throws \TYPO3\CMS\Extbase\Object\Exception
      * @noinspection PhpIncompatibleReturnTypeInspection

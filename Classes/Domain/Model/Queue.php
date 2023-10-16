@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Model;
+namespace WebanUg\Cleverreach\Domain\Model;
 
 /**
  * Class Queue

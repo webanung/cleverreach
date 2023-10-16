@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\Interfaces\Required\ShopLoggerAdapter;

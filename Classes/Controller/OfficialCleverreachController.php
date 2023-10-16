@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
 require_once __DIR__ . '/../autoload.php';
 
@@ -13,9 +13,9 @@ use CleverReach\Infrastructure\ServiceRegister;
 use CleverReach\Infrastructure\TaskExecution\Exceptions\QueueStorageUnavailableException;
 use CleverReach\Infrastructure\TaskExecution\Queue;
 use CleverReach\Infrastructure\TaskExecution\QueueItem;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\IntegrationServices\Sync\InitialSyncTask;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\IntegrationServices\Sync\InitialSyncTask;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**

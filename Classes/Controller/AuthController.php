@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
 use CleverReach\BusinessLogic\Entity\AuthInfo;
 use CleverReach\BusinessLogic\Interfaces\Proxy;
@@ -15,8 +15,8 @@ use CleverReach\Infrastructure\TaskExecution\Queue;
 use CleverReach\Infrastructure\Utility\Exceptions\HttpCommunicationException;
 use CleverReach\Infrastructure\Utility\Exceptions\HttpRequestException;
 use CleverReach\Infrastructure\Utility\Exceptions\RefreshTokenExpiredException;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use Webanug\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 

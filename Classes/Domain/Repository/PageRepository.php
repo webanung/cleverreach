@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
@@ -8,7 +8,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class PageRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 class PageRepository extends AbstractPageRepository
 {

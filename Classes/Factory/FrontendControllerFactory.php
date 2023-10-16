@@ -1,19 +1,19 @@
 <?php
 
-namespace CR\OfficialCleverreach\Factory;
+namespace WebanUg\Cleverreach\Factory;
 
-use CR\OfficialCleverreach\Controller\ArticleSearchController;
-use CR\OfficialCleverreach\Controller\AsyncProcessController;
-use CR\OfficialCleverreach\Controller\AuthController;
-use CR\OfficialCleverreach\Controller\EventHandlerController;
-use CR\OfficialCleverreach\Controller\ProductSearchController;
+use WebanUg\Cleverreach\Controller\ArticleSearchController;
+use WebanUg\Cleverreach\Controller\AsyncProcessController;
+use WebanUg\Cleverreach\Controller\AuthController;
+use WebanUg\Cleverreach\Controller\EventHandlerController;
+use WebanUg\Cleverreach\Controller\ProductSearchController;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Reflection\Exception\UnknownClassException;
 
 /**
  * Class FrontendControllerFactory
- * @package CR\OfficialCleverreach\Factory
+ * @package WebanUg\Cleverreach\Factory
  */
 class FrontendControllerFactory
 {

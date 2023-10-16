@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Exposed\Runnable;
 use CleverReach\Infrastructure\Interfaces\Required\AsyncProcessStarter;
@@ -10,10 +10,10 @@ use CleverReach\Infrastructure\ServiceRegister;
 use CleverReach\Infrastructure\TaskExecution\Exceptions\ProcessStarterSaveException;
 use CleverReach\Infrastructure\Utility\Exceptions\HttpRequestException;
 use CleverReach\Infrastructure\Utility\GuidProvider;
-use CR\OfficialCleverreach\Domain\Model\Process;
-use CR\OfficialCleverreach\Domain\Repository\ProcessRepository;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\ProcessRepository as ProcessLegacyRepository;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Model\Process;
+use WebanUg\Cleverreach\Domain\Repository\ProcessRepository;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\ProcessRepository as ProcessLegacyRepository;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 
@@ -105,7 +105,7 @@ class AsyncProcessStarterService implements AsyncProcessStarter
     }
 
     /**
-     * @return \CR\OfficialCleverreach\IntegrationServices\Infrastructure\HttpClientService
+     * @return \WebanUg\Cleverreach\IntegrationServices\Infrastructure\HttpClientService
      */
     private function getHttpClient()
     {

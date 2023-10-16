@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Hooks;
+namespace WebanUg\Cleverreach\Hooks;
 
 use CleverReach\BusinessLogic\Interfaces\Proxy;
 use CleverReach\BusinessLogic\Sync\ExchangeAccessTokenTask;
@@ -10,9 +10,9 @@ use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\Logger\Logger;
 use CleverReach\Infrastructure\ServiceRegister;
 use CleverReach\Infrastructure\TaskExecution\Queue;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\Utility\Helper;
-use CR\OfficialCleverreach\Utility\Initializer;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Utility\Initializer;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Package\Event\AfterPackageActivationEvent;
 use TYPO3\CMS\Core\Package\Event\AfterPackageDeactivationEvent;
@@ -20,7 +20,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class InstallHandler
- * @package CR\OfficialCleverreach\Hooks
+ * @package WebanUg\Cleverreach\Hooks
  */
 class InstallHandler
 {

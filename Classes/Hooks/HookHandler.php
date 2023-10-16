@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Hooks;
+namespace WebanUg\Cleverreach\Hooks;
 
 require_once __DIR__ . '/../autoload.php';
 
@@ -18,12 +18,12 @@ use CleverReach\Infrastructure\ServiceRegister;
 use CleverReach\Infrastructure\TaskExecution\Exceptions\QueueStorageUnavailableException;
 use CleverReach\Infrastructure\TaskExecution\Queue;
 use CleverReach\Infrastructure\TaskExecution\Task;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
-use CR\OfficialCleverreach\IntegrationServices\Business\RecipientsService;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
+use WebanUg\Cleverreach\IntegrationServices\Business\RecipientsService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\Utility\Helper;
 use In2code\Femanager\Domain\Model\User;
 use In2code\Femanager\Event\AfterUserUpdateEvent;
 use In2code\Femanager\Event\BeforeUpdateUserEvent;
@@ -744,7 +744,7 @@ class HookHandler
     }
 
     /**
-     * @return \CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface
+     * @return \WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface
      */
     private function getPageRepository()
     {

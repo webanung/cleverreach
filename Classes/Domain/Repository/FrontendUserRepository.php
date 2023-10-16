@@ -1,15 +1,15 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Database\Query\Restriction\DeletedRestriction;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class FrontendUserRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 class FrontendUserRepository extends AbstractFrontendUserRepository
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Utility;
+namespace WebanUg\Cleverreach\Utility;
 
 use CleverReach\BusinessLogic\Utility\ArticleSearch\FilterParser;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\SearchResult\AuthorAttribute;
@@ -16,8 +16,8 @@ use CleverReach\BusinessLogic\Utility\ArticleSearch\SearchResult\TextAttribute;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\SearchResult\UrlAttribute;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Validator;
 use CleverReach\Infrastructure\ServiceRegister;
-use CR\OfficialCleverreach\Domain\Repository\AbstractPageRepository;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\AbstractPageRepository;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class SearchResultsProvider
@@ -37,7 +37,7 @@ class SearchResultsProvider
      *
      * @return SearchResult
      *
-     * @throws \CR\OfficialCleverreach\Exceptions\ContentTypeNotFoundException
+     * @throws \WebanUg\Cleverreach\Exceptions\ContentTypeNotFoundException
      * @throws \CleverReach\BusinessLogic\Utility\ArticleSearch\Exceptions\InvalidSchemaMatching
      * @throws \Exception
      */
@@ -174,7 +174,7 @@ class SearchResultsProvider
      *
      * @return array
      *
-     * @throws \CR\OfficialCleverreach\Exceptions\ContentTypeNotFoundException
+     * @throws \WebanUg\Cleverreach\Exceptions\ContentTypeNotFoundException
      * @throws \CleverReach\BusinessLogic\Utility\ArticleSearch\Exceptions\InvalidSchemaMatching
      */
     private function getFilteredArticles($contentType, $rawFilter)

@@ -1,9 +1,9 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ConfigurationService extends Configuration

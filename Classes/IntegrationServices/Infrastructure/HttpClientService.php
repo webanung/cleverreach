@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\Interfaces\Required\HttpClient;
@@ -103,7 +103,7 @@ class HttpClientService extends HttpClient
 
     private function setCurlSessionOptionsForAsynchronousRequest()
     {
-        /** @var \CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService $configService */
+        /** @var \WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService $configService */
         $configService = ServiceRegister::getService(Configuration::CLASS_NAME);
         $timeout = $configService->getAsyncProcessRequestTimeout();
         // Always ensure the connection is fresh

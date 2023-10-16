@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
 use CleverReach\BusinessLogic\Entity\Recipient;
 use CleverReach\BusinessLogic\Interfaces\Proxy;
@@ -8,8 +8,8 @@ use CleverReach\BusinessLogic\Sync\RecipientSyncTask;
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\ServiceRegister;
 use CleverReach\Infrastructure\TaskExecution\Queue;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 

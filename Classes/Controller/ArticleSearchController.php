@@ -1,10 +1,10 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
-use CR\OfficialCleverreach\Utility\Helper;
-use CR\OfficialCleverreach\Utility\SchemaProvider;
-use CR\OfficialCleverreach\Utility\SearchResultsProvider;
+use WebanUg\Cleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Utility\SchemaProvider;
+use WebanUg\Cleverreach\Utility\SearchResultsProvider;
 use Exception;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;

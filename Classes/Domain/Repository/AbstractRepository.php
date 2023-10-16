@@ -1,14 +1,14 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
-use CR\OfficialCleverreach\Domain\Model\AbstractModel;
+use WebanUg\Cleverreach\Domain\Model\AbstractModel;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Database\Query\QueryBuilder;
 
 /**
  * Class AbstractRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 abstract class AbstractRepository
 {
@@ -32,7 +32,7 @@ abstract class AbstractRepository
     /**
      * Inserts model into its corresponding database table.
      *
-     * @param \CR\OfficialCleverreach\Domain\Model\AbstractModel $model
+     * @param \WebanUg\Cleverreach\Domain\Model\AbstractModel $model
      *
      * @return int
      */

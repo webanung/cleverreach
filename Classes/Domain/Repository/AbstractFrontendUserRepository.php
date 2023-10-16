@@ -1,13 +1,13 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Utility\Helper;
 
 /**
  * Class AbstractFrontendUserRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 abstract class AbstractFrontendUserRepository implements FrontendUserRepositoryInterface
 {

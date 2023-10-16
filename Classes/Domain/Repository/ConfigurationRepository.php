@@ -1,14 +1,14 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
-use CR\OfficialCleverreach\Domain\Model\Configuration;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\ConfigRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Model\Configuration;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\ConfigRepositoryInterface;
 use Doctrine\DBAL\FetchMode;
 
 /**
  * Class ConfigurationRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 class ConfigurationRepository extends AbstractRepository implements ConfigRepositoryInterface
 {

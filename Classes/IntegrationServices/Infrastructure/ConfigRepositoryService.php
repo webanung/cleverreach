@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Infrastructure;
+namespace WebanUg\Cleverreach\IntegrationServices\Infrastructure;
 
 use CleverReach\Infrastructure\Interfaces\Required\ConfigRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Model\Configuration;
-use CR\OfficialCleverreach\Domain\Repository\ConfigurationRepository;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\ConfigurationRepository as ConfigurationLegacyRepository;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Model\Configuration;
+use WebanUg\Cleverreach\Domain\Repository\ConfigurationRepository;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\ConfigurationRepository as ConfigurationLegacyRepository;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 

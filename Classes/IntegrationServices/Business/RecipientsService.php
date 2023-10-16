@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Business;
+namespace WebanUg\Cleverreach\IntegrationServices\Business;
 
 use CleverReach\BusinessLogic\Entity\Recipient;
 use CleverReach\BusinessLogic\Entity\SpecialTag;
@@ -9,10 +9,10 @@ use CleverReach\BusinessLogic\Entity\Tag;
 use CleverReach\BusinessLogic\Entity\TagCollection;
 use CleverReach\BusinessLogic\Interfaces\Recipients;
 use CleverReach\Infrastructure\ServiceRegister;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class RecipientsService implements Recipients

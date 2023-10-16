@@ -1,11 +1,11 @@
 <?php
-namespace CR\OfficialCleverreach\Controller;
+namespace WebunUg\Cleverreach\Controller;
 
 use CleverReach\Infrastructure\Logger\Logger;
-use CR\OfficialCleverreach\Domain\Model\Process;
-use CR\OfficialCleverreach\Domain\Repository\ProcessRepository;
-use CR\OfficialCleverreach\Domain\Repository\Legacy\ProcessRepository as ProcessLegacyRepository;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Model\Process;
+use WebanUg\Cleverreach\Domain\Repository\ProcessRepository;
+use WebanUg\Cleverreach\Domain\Repository\Legacy\ProcessRepository as ProcessLegacyRepository;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use TYPO3\CMS\Extbase\Object\ObjectManager;

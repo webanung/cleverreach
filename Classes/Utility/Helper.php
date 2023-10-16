@@ -1,8 +1,8 @@
 <?php
 
-namespace CR\OfficialCleverreach\Utility;
+namespace WebanUg\Cleverreach\Utility;
 
-use CR\OfficialCleverreach\Exceptions\UnknownActionNameException;
+use WebanUg\Cleverreach\Exceptions\UnknownActionNameException;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\HttpUtility;
 use TYPO3\CMS\Core\Utility\VersionNumberUtility;
@@ -143,7 +143,7 @@ class Helper
      * @param string $actionName
      *
      * @return array
-     * @throws \CR\OfficialCleverreach\Exceptions\UnknownActionNameException
+     * @throws \WebanUg\Cleverreach\Exceptions\UnknownActionNameException
      */
     public static function getActionAndControllerName($actionName)
     {

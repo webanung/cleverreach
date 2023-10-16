@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Controller;
+namespace WebanUg\Cleverreach\Controller;
 
 require_once __DIR__ . '/../autoload.php';
 
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\ServiceRegister;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
 use TYPO3\CMS\Core\Utility\VersionNumberUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 

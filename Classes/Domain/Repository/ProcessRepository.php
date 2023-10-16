@@ -1,14 +1,14 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
-use CR\OfficialCleverreach\Domain\Model\Process;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Model\Process;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface;
 use Doctrine\DBAL\FetchMode;
 
 /**
  * Class ProcessRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 class ProcessRepository extends AbstractRepository implements ProcessRepositoryInterface
 {

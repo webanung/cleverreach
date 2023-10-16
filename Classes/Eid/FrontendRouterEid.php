@@ -1,24 +1,24 @@
 <?php
 
-namespace CR\OfficialCleverreach\Eid;
+namespace WebanUg\Cleverreach\Eid;
 
 require_once __DIR__ . '/../autoload.php';
 
-use CR\OfficialCleverreach\Exceptions\UnknownActionNameException;
-use CR\OfficialCleverreach\Factory\FrontendControllerFactory;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Exceptions\UnknownActionNameException;
+use WebanUg\Cleverreach\Factory\FrontendControllerFactory;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class FrontendRouterEid
- * @package CR\OfficialCleverreach\Eid
+ * @package WebanUg\Cleverreach\Eid
  */
 class FrontendRouterEid
 {
     /**
      * Handles incoming controller action.
      *
-     * @throws \CR\OfficialCleverreach\Exceptions\UnknownActionNameException
+     * @throws \WebanUg\Cleverreach\Exceptions\UnknownActionNameException
      * @throws \TYPO3\CMS\Extbase\Reflection\Exception\UnknownClassException
      */
     public function processRequest()

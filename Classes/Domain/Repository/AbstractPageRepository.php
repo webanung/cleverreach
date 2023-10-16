@@ -1,15 +1,15 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Conditions;
 use CleverReach\BusinessLogic\Utility\ArticleSearch\Operators;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\PageRepositoryInterface;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class AbstractPageRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 abstract class AbstractPageRepository implements PageRepositoryInterface
 {

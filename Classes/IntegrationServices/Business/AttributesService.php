@@ -1,14 +1,14 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Business;
+namespace WebanUg\Cleverreach\IntegrationServices\Business;
 
 use CleverReach\BusinessLogic\Entity\Recipient;
 use CleverReach\BusinessLogic\Entity\RecipientAttribute;
 use CleverReach\BusinessLogic\Interfaces\Attributes;
 use CleverReach\Infrastructure\Interfaces\Required\Configuration;
 use CleverReach\Infrastructure\ServiceRegister;
-use CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class AttributesService implements Attributes

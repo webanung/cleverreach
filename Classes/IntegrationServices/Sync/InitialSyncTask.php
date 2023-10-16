@@ -1,6 +1,6 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Sync;
+namespace WebanUg\Cleverreach\IntegrationServices\Sync;
 
 use CleverReach\BusinessLogic\Sync\InitialSyncTask as CoreInitialSyncTask;
 

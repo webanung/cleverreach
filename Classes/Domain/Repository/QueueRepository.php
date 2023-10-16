@@ -1,16 +1,16 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository;
+namespace WebanUg\Cleverreach\Domain\Repository;
 
 use CleverReach\Infrastructure\TaskExecution\QueueItem;
-use CR\OfficialCleverreach\Domain\Model\Queue;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\QueueRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Model\Queue;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\QueueRepositoryInterface;
 use Doctrine\DBAL\FetchMode;
 use TYPO3\CMS\Extbase\Persistence\QueryInterface;
 
 /**
  * Class QueueRepository
- * @package CR\OfficialCleverreach\Domain\Repository
+ * @package WebanUg\Cleverreach\Domain\Repository
  */
 class QueueRepository extends AbstractRepository implements QueueRepositoryInterface
 {

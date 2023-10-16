@@ -1,17 +1,17 @@
 <?php
 
-namespace CR\OfficialCleverreach\IntegrationServices\Sync;
+namespace WebanUg\Cleverreach\IntegrationServices\Sync;
 
 use CleverReach\BusinessLogic\Sync\BaseSyncTask;
 use CleverReach\Infrastructure\ServiceRegister;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
-use CR\OfficialCleverreach\Utility\Helper;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface;
+use WebanUg\Cleverreach\Utility\Helper;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 
 /**
  * Class UpdateNewsletterStatusSyncTask
- * @package CR\OfficialCleverreach\IntegrationServices\Sync
+ * @package WebanUg\Cleverreach\IntegrationServices\Sync
  */
 class UpdateNewsletterStatusSyncTask extends BaseSyncTask
 {
@@ -31,7 +31,7 @@ class UpdateNewsletterStatusSyncTask extends BaseSyncTask
     }
 
     /**
-     * @return \CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface
+     * @return \WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserRepositoryInterface
      */
     private function getUserRepository()
     {
