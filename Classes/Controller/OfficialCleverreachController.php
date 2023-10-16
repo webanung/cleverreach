@@ -20,7 +20,7 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
  * Class OfficialCleverreachController
- * @package CR\OfficialCleverreach\Controller
+ * @package WebanUg\Cleverreach\Controller
  */
 class OfficialCleverreachController extends ActionController
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Interfaces;
+namespace WebanUg\Cleverreach\Domain\Repository\Interfaces;
 
-use CR\OfficialCleverreach\Domain\Model\Process;
+use WebanUg\Cleverreach\Domain\Model\Process;
 
 /**
  * Interface ProcessRepositoryInterface
- * @package CR\OfficialCleverreach\Domain\Repository\Interfaces
+ * @package WebanUg\Cleverreach\Domain\Repository\Interfaces
  */
 interface ProcessRepositoryInterface
 {

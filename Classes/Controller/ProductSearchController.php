@@ -22,7 +22,7 @@ class ProductSearchController extends ActionController
     /**
      * CleverReach Product search endpoint
      *
-     * @throws \CR\OfficialCleverreach\Exceptions\ContentTypeNotFoundException
+     * @throws \WebanUg\Cleverreach\Exceptions\ContentTypeNotFoundException
      * @throws \CleverReach\BusinessLogic\Utility\ArticleSearch\Exceptions\InvalidSchemaMatching
      */
     public function searchAction()
@@ -66,7 +66,7 @@ class ProductSearchController extends ActionController
     /**
      * Returns items for provided filters
      *
-     * @throws \CR\OfficialCleverreach\Exceptions\ContentTypeNotFoundException
+     * @throws \WebanUg\Cleverreach\Exceptions\ContentTypeNotFoundException
      * @throws \CleverReach\BusinessLogic\Utility\ArticleSearch\Exceptions\InvalidSchemaMatching
      */
     private function getResultsAction()

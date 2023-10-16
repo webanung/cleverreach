@@ -22,7 +22,7 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
  * Class AuthController
- * @package CR\OfficialCleverreach\Controller
+ * @package WebanUg\Cleverreach\Controller
  */
 class AuthController extends ActionController
 {
@@ -92,7 +92,7 @@ class AuthController extends ActionController
     {
         /** @var Queue $queue */
         $queue = ServiceRegister::getService(Queue::CLASS_NAME);
-        /** @var \CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService $configService */
+        /** @var \WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService $configService */
         $configService = ServiceRegister::getService(Configuration::CLASS_NAME);
 
         $queue->enqueue($configService->getQueueName(), new RefreshUserInfoTask($authInfo));

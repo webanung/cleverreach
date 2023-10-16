@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\FrontendUserGroupRepositoryInterface;
 
 /**
  * Class FrontendUserGroupRepository
- * @package CR\OfficialCleverreach\Domain\Repository\Legacy
+ * @package WebanUg\Cleverreach\Domain\Repository\Legacy
  */
 class FrontendUserGroupRepository implements FrontendUserGroupRepositoryInterface
 {

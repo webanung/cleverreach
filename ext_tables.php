@@ -1,8 +1,8 @@
 <?php
 
-use CR\OfficialCleverreach\Controller\CheckStatusController;
-use CR\OfficialCleverreach\Controller\OfficialCleverreachController;
-use CR\OfficialCleverreach\Controller\SupportController;
+use WebanUg\Cleverreach\Controller\CheckStatusController;
+use WebanUg\Cleverreach\Controller\OfficialCleverreachController;
+use WebanUg\Cleverreach\Controller\SupportController;
 
 defined('TYPO3_MODE') || die('Access denied.');
 

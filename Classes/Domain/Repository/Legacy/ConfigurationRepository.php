@@ -1,13 +1,13 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Model\Configuration;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\ConfigRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Model\Configuration;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\ConfigRepositoryInterface;
 
 /**
  * Class ConfigurationRepository
- * @package CR\OfficialCleverreach\Domain\Repository\Legacy
+ * @package WebanUg\Cleverreach\Domain\Repository\Legacy
  */
 class ConfigurationRepository extends AbstractRepository implements ConfigRepositoryInterface
 {

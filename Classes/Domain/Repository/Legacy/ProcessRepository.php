@@ -1,13 +1,13 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Model\Process;
-use CR\OfficialCleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface;
+use WebanUg\Cleverreach\Domain\Model\Process;
+use WebanUg\Cleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface;
 
 /**
  * Class ProcessRepository
- * @package CR\OfficialCleverreach\Domain\Repository\Legacy
+ * @package WebanUg\Cleverreach\Domain\Repository\Legacy
  */
 class ProcessRepository extends AbstractRepository implements ProcessRepositoryInterface
 {

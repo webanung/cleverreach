@@ -1,5 +1,5 @@
 services:
-    CR\OfficialCleverreach\Hooks\InstallHandler:
+    WebanUg\Cleverreach\Hooks\InstallHandler:
         tags:
             - name: event.listener
               identifier: 'cleverreach/install'
@@ -11,7 +11,7 @@ services:
               method: 'uninstall'
               event: TYPO3\CMS\Core\Package\Event\AfterPackageDeactivationEvent
 
-    CR\OfficialCleverreach\Hooks\HookHandler:
+    WebanUg\Cleverreach\Hooks\HookHandler:
         tags:
             - name: event.listener
               identifier: 'cleverreach/femanager-user-created'

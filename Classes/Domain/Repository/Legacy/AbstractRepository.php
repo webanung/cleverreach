@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Model\AbstractModel;
+use WebanUg\Cleverreach\Domain\Model\AbstractModel;
 
 /**
  * Class AbstractRepository
- * @package CR\OfficialCleverreach\Domain\Repository\Legacy
+ * @package WebanUg\Cleverreach\Domain\Repository\Legacy
  */
 abstract class AbstractRepository
 {
@@ -15,7 +15,7 @@ abstract class AbstractRepository
     /**
      * Inserts model into its corresponding database table.
      *
-     * @param \CR\OfficialCleverreach\Domain\Model\AbstractModel $model
+     * @param \WebanUg\Cleverreach\Domain\Model\AbstractModel $model
      *
      * @return int
      */

@@ -20,7 +20,7 @@ class EventHandlerController extends ActionController
         'receiver.unsubscribed'
     ];
 
-    /** @var \CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService **/
+    /** @var \WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService **/
     private $configService;
 
     /**
@@ -177,7 +177,7 @@ class EventHandlerController extends ActionController
     /**
      * Retrieves config service.
      *
-     * @return \CR\OfficialCleverreach\IntegrationServices\Infrastructure\ConfigurationService
+     * @return \WebanUg\Cleverreach\IntegrationServices\Infrastructure\ConfigurationService
      */
     private function getConfigService()
     {

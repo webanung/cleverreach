@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Interfaces;
+namespace WebanUg\Cleverreach\Domain\Repository\Interfaces;
 
-use CR\OfficialCleverreach\Domain\Model\Configuration;
+use WebanUg\Cleverreach\Domain\Model\Configuration;
 
 /**
  * Interface ConfigRepositoryInterface
- * @package CR\OfficialCleverreach\Domain\Repository\Interfaces
+ * @package WebanUg\Cleverreach\Domain\Repository\Interfaces
  */
 interface ConfigRepositoryInterface
 {

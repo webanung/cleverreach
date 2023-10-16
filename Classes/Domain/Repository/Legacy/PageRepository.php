@@ -1,8 +1,8 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Repository\AbstractPageRepository;
+use WebanUg\Cleverreach\Domain\Repository\AbstractPageRepository;
 
 class PageRepository extends AbstractPageRepository
 {

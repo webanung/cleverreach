@@ -18,13 +18,13 @@ if (!defined('TYPO3_MODE')) {
     ]
 );
 
-$GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['cleverreach_frontend'] = \CR\OfficialCleverreach\Eid\FrontendRouterEid::class . '::processRequest';
+$GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['cleverreach_frontend'] = \WebanUg\Cleverreach\Eid\FrontendRouterEid::class . '::processRequest';
 $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['sr_feuser_register']['extendingTCA'][] = $_EXTKEY;
 
 // hook register
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processDatamapClass'][] = \CR\OfficialCleverreach\Hooks\HookHandler::class;
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processCmdmapClass'][] = \CR\OfficialCleverreach\Hooks\HookHandler::class;
-$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['sr_feuser_register']['tx_srfeuserregister_pi1']['registrationProcess'][] = \CR\OfficialCleverreach\Hooks\HookHandler::class;
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processDatamapClass'][] = \WebanUg\Cleverreach\Hooks\HookHandler::class;
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processCmdmapClass'][] = \WebanUg\Cleverreach\Hooks\HookHandler::class;
+$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['sr_feuser_register']['tx_srfeuserregister_pi1']['registrationProcess'][] = \WebanUg\Cleverreach\Hooks\HookHandler::class;
 
 
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']['EXT:cms/locallang_tca.xlf'][] = 'EXT:' . EXTENSION_KEY . '/Resources/Private/Language/locallang.xlf';

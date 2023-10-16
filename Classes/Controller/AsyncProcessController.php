@@ -51,7 +51,7 @@ class AsyncProcessController extends ActionController
     /**
      * Returns an instance of process repository.
      *
-     * @return \CR\OfficialCleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface
+     * @return \WebanUg\Cleverreach\Domain\Repository\Interfaces\ProcessRepositoryInterface
      */
     private function getProcessRepository()
     {

@@ -5,7 +5,7 @@
 $feUsersColumns = [
     'cr_newsletter_subscription' => [
         'exclude' => 1,
-        'label' => 'LLL:EXT:official_cleverreach/Resources/Private/Language/locallang.xlf:cr_newsletter_subscription',
+        'label' => 'LLL:EXT:cleverreach/Resources/Private/Language/locallang.xlf:cr_newsletter_subscription',
         'config' => [
             'type' => 'check',
             'default' => 0,

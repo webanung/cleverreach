@@ -1,10 +1,10 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Interfaces;
+namespace WebanUg\Cleverreach\Domain\Repository\Interfaces;
 
 /**
  * Interface PageRepositoryInterface
- * @package CR\OfficialCleverreach\Domain\Repository\Interfaces
+ * @package WebanUg\Cleverreach\Domain\Repository\Interfaces
  */
 interface PageRepositoryInterface
 {

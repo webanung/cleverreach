@@ -1,12 +1,12 @@
 <?php
 
-namespace CR\OfficialCleverreach\Domain\Repository\Legacy;
+namespace WebanUg\Cleverreach\Domain\Repository\Legacy;
 
-use CR\OfficialCleverreach\Domain\Repository\AbstractFrontendUserRepository;
+use WebanUg\Cleverreach\Domain\Repository\AbstractFrontendUserRepository;
 
 /**
  * Class FrontendUserRepository
- * @package CR\OfficialCleverreach\Domain\Repository\Legacy
+ * @package WebanUg\Cleverreach\Domain\Repository\Legacy
  */
 class FrontendUserRepository extends AbstractFrontendUserRepository
 {
