@@ -31,5 +31,10 @@
     "psr-4": {
       "WebanUg\\Cleverreach\\Tests\\": "Tests/"
     }
-  }
+  },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "cleverreach"
+        }
+    }
 }
