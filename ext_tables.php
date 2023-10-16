@@ -22,8 +22,8 @@ if (TYPO3_MODE === 'BE') {
         ],
         [
             'access' => 'user,group',
-            'icon' => 'EXT:official_cleverreach/ext_icon.png',
-            'labels' => 'LLL:EXT:official_cleverreach/Resources/Private/Language/locallang_mod.xlf',
+            'icon' => 'EXT:cleverreach/ext_icon.png',
+            'labels' => 'LLL:EXT:cleverreach/Resources/Private/Language/locallang_mod.xlf',
         ]
     );
 }
