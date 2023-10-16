@@ -24,12 +24,12 @@
   },
   "autoload": {
     "psr-4": {
-      "CR\\OfficialCleverreach\\": "Classes/"
+      "WebaunUg\\Cleverreach\\": "Classes/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CR\\OfficialCleverreach\\Tests\\": "Tests/"
+      "WebanUg\\Cleverreach\\Tests\\": "Tests/"
     }
   }
 }
